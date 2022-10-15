@@ -101,6 +101,7 @@ generate_messages(
   std_msgs
   geometry_msgs
   j2735_msgs
+  j2735_v2x_msgs
 )
 
 ################################################
@@ -135,7 +136,7 @@ generate_messages(
 catkin_package(
  # INCLUDE_DIRS include
 #  LIBRARIES cav_msgs
- CATKIN_DEPENDS message_runtime std_msgs geometry_msgs j2735_msgs
+ CATKIN_DEPENDS message_runtime std_msgs geometry_msgs j2735_msgs j2735_v2x_msgs
 #  DEPENDS system_lib
 )
 
