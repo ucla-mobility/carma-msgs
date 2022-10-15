@@ -32,7 +32,6 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   geometry_msgs
   j2735_msgs
-  j2735_v2x_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -101,7 +100,6 @@ generate_messages(
   std_msgs
   geometry_msgs
   j2735_msgs
-  j2735_v2x_msgs
 )
 
 ################################################
@@ -136,7 +134,7 @@ generate_messages(
 catkin_package(
  # INCLUDE_DIRS include
 #  LIBRARIES cav_msgs
- CATKIN_DEPENDS message_runtime std_msgs geometry_msgs j2735_msgs j2735_v2x_msgs
+ CATKIN_DEPENDS message_runtime std_msgs geometry_msgs j2735_msgs
 #  DEPENDS system_lib
 )
 
