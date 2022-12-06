@@ -38,7 +38,8 @@ string level_of_inspection
 string origin
 string destination
 string nearest_roadside_inspection_facility
-j2735_msgs/Position3D destination_point
+float64 destination_lat
+float64 destination_lon
 string preclearance_system
 
 float64 latitude
