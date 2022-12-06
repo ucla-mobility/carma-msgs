@@ -8,7 +8,7 @@
 # 
 
 # standard header for all mobility messages
-cav_msgs/MobilityHeader  m_header
+carma_v2x_msgs/MobilityHeader  m_header
 
 # message type
 string type
@@ -44,7 +44,7 @@ string preclearance_system
 # valid operational time 8-16
 string operational_time 
 
-cav_msgs/ADSStatus ads_status
+carma_v2x_msgs/ADSStatus ads_status
 j2735_msgs/FullPositionVector current_position
 
-cav_msgs/TirePressureMonitoringSystem tpms_data
+carma_v2x_msgs/TirePressureMonitoringSystem tpms_data
