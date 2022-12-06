@@ -27,8 +27,3 @@ uint8 ADS_CAUTION = 5
 
 # critical drivers' operational status
 string driver_status
-
-
-
-
-

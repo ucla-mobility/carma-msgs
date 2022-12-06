@@ -41,8 +41,8 @@ string nearest_roadside_inspection_facility
 j2735_msgs/Position3D destination_point
 string preclearance_system
 
-# valid operational time
-string operational_time: 8-16
+# valid operational time 8-16
+string operational_time 
 
 cav_msgs/ADSStatus ads_status
 j2735_msgs/FullPositionVector current_position

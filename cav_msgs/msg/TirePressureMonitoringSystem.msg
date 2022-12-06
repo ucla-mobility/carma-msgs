@@ -1,4 +1,3 @@
-
 #
 # TirePressureMonitoringSystem.msg
 #
@@ -12,5 +11,4 @@ string vin
 
 uint64 time
 TirePressure[] tires
-
 
